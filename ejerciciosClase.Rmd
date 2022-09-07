@@ -1,0 +1,38 @@
+---
+title: "Ejercicios interés simple en clase"
+author: "Dr. Oscar De la Torre Torres"
+date: "2022-08-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lubridate)
+```
+
+# Ejercicios de interés simple en clase
+
+## Aplicaciones
+
+Héctor pidió prestado $150,000.00 a pagar en 14 meses. Si la tasa de interés es del 26.64% simple ¿qué cantidad deberá pagar por concepto de intereses? ¿cuál es el monto o valor final?
+
+**Datos:**
+
+$VA=150,000.00$
+
+
+```{r}
+VA=150000
+```
+
+
+## Ejercicios del libro
+
+### Ejercicio 1:
+
+### ejercicio 2:
+
+Calcule el interés simple comercial y exacto de $184,000.00 prestados a una tasa de interés igual a TIIE con plazo de 28 días, vigente al momento del préstamo, más 21 puntos porcentuales, del 7 de julio al 10 de noviembre. Suponga que la tasa vigente de TIIE a 28 días es de 8.14% anual.
+
+Una persona obtiene un préstamo por /$32,700 el 16 de febrero y restituye el capital más intereses el 16 de junio del mismo año. Obtenga el monto ordinario y el monto exacto, si la tasa de interés fue del 3.5/% mensual.
+
