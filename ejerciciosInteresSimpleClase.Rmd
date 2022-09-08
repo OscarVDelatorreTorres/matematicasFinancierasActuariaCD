@@ -46,7 +46,7 @@ I=VA\cdot (t\cdot i)
 
 
 \begin{equation}
-t=\frac{\text{número de meses del préstamo}}{\text{número de meses al año}=\frac{14}{12}=1.1666666...
+t=\frac{\text{número de meses del préstamo}}{\text{número de meses al año}}=\frac{14}{12}=1.1666666...
 (\#eq:periodoOFraccion)
 \end{equation}
 
