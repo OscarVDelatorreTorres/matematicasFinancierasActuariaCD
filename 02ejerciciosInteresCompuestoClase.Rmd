@@ -57,3 +57,23 @@ Los exploradores nunca cobraron la recompensa anunciada por capturar al bandido 
 Carlos tiene 2 deudas: una por \$25,730.00 para pagar en 14 meses, y otra de \$39,675.00 a pagar en 18 meses. Carlos desea pagar sus deudas en este momento, ya que acaba de recibir \$50,000.00 del fondo de ahorro de la empresa donde trabaja. Si el valor del dinero es del 1.82\% mensual capitalizable en forma bimestral, ¿tendrá lo suficiente para saldar sus deudas?
 
 ## Ejercicio 11
+
+¿Qué oferta es más conveniente para el vendedor de un terreno si el dinero puede invertirse al 10\% anual compuesto cada mes?
+
+a. \$200,000.00 de contado y \$231,989.74 dentro de un año.
+b. \$50,000.00 de contado y el saldo en 3 pagarés iguales de \$142,433.53 cada uno a 4, 8 y 12 meses de plazo.
+
+## Ejercicio 12
+
+Un pagaré, fechado el 27 de marzo del 2019, estipula el pago de \$36,189.00 más intereses del 27\% capitalizable cada quincena para dentro de 10 meses. Si el deudor desea saldar su deuda el 27 de septiembre del 2019, calcule la cantidad a pagar utilizando una tasa de descuento del 29\% mensual.
+
+## Ejercicio 13
+
+Calcule el precio de contado de una impresora multifuncional láser que se compra a crédito, mediante un enganche del 20\% del precio de contado y se firma un pagaré que vence dentro de un trimestre, por \$3,937.11, que incluye intereses al 30\% capitalizable mensual.
+
+## Ejercicio 14
+
+Sergio compra un automóvil, cuyo precio de contado es de \$418,000.00, dando un pago inicial, o enganche, y el saldo se pagará mediante un abono de \$150,000.00 al cabo de un año, y \$251,229.73 dentro de un año y medio, los cuales incluyen intereses a la tasa del 14\% capitalizbale cada mes. Calcule el valor del pago inicial.
+
+## Ejercicio 15
+¿Que tiempo es necesario para que \$3,600.00 se conviertan en \$9,055.14, a una tasa anual del 9.44\% convertible cada semestre. Por favor exprese en años el resultado.
