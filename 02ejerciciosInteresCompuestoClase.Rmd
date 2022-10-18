@@ -1,0 +1,59 @@
+---
+title: "Ejercicios de repaso en clase de interés compuesto"
+author: "Dr. Oscar De la Torre Torres"
+date: "2022-10-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Ejercicios de repaso de interés compuesto
+
+## Ejercicio 1
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 3 años con tasa de interés del 12\% anual capitalizable cada mes.
+
+## Ejercicio 2
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 3 años con tasa de interés del 12\% anual capitalizable cada quincena.
+
+## Ejercicio 3
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 4 años con tasa de interés del 1.5\% mensual capitalizable cada trimestre.
+
+## Ejercicio 4
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 8 años con tasa de interés del 6\% trimestral capitalizable cada mes.
+
+## Ejercicio 5
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 2 años con tasa de interés del 15\% semestral capitalizable cada bimestre.
+
+## Ejercicio 6
+
+Calcule el monto de interés compuesto  6 meses de \$150,000.00 invertidos al 18.36\% anual capitalizable cada mes.
+
+## Ejercicio 7
+
+Alberto solicitó un préstamo de \$6,700.00 para comprar libros de texto y artículos escolares para sus hijos. Si la tasa de interés es del 27\% anual capitalizable cada mes y debe liquidar el préstamo en 10 meses, calcule los intereses generados.
+
+## Ejercicio 8
+
+Calcule la diferencia del valor final de una inversión de \$52,400.00 invertidos al 7.85\% capitalizable diario del 4 de enero del 2022 al 19 de noviembre del mismo año. Esto para una inversión con año natural menos el año comercial.
+
+## Ejercicio 9
+
+En una nota periodística australiana en septiembre de 1997 se leía:
+
+*Descendientes de dos exploradores aborígenes que nunca recibieron la recompensa por capturar al bandido más famoso de Australia, perdieron una demanda de compensación por 60 millones de dólares australianos.
+Los exploradores nunca cobraron la recompensa anunciada por capturar al bandido irlandés Ned Nelly, en 1878 y sus descendientes la exigieron con la penalidad de un interés compuesto anual del 12\%*
+
+¿Cuál fue el valor de la recompensa anunciada en ese tiempo?
+
+## Ejercicio 10
+
+Carlos tiene 2 deudas: una por \$25,730.00 para pagar en 14 meses, y otra de \$39,675.00 a pagar en 18 meses. Carlos desea pagar sus deudas en este momento, ya que acaba de recibir \$50,000.00 del fondo de ahorro de la empresa donde trabaja. Si el valor del dinero es del 1.82\% mensual capitalizable en forma bimestral, ¿tendrá lo suficiente para saldar sus deudas?
+
+## Ejercicio 11
