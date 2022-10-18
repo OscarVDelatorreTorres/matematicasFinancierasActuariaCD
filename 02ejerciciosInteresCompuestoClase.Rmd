@@ -77,3 +77,6 @@ Sergio compra un automóvil, cuyo precio de contado es de \$418,000.00, dando un
 
 ## Ejercicio 15
 ¿Que tiempo es necesario para que \$3,600.00 se conviertan en \$9,055.14, a una tasa anual del 9.44\% convertible cada semestre. Por favor exprese en años el resultado.
+
+## Ejercicio 16 
+Se estima que en las condiciones económicas actuales, una casa, cuyo precio actual es de \$780,000.00, aumentará su valor cada año en 7\% sobre el valor del año anterior, durante los próximos 8 años. ¿En cuánto tiempo la casa tendrá n valor de \$1,022,421.00?
