@@ -1,0 +1,82 @@
+---
+title: "Ejercicios de repaso en clase de interés compuesto"
+author: "Dr. Oscar De la Torre Torres"
+date: "2022-10-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Ejercicios de repaso de interés compuesto
+
+## Ejercicio 1
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 3 años con tasa de interés del 12\% anual capitalizable cada mes.
+
+## Ejercicio 2
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 3 años con tasa de interés del 12\% anual capitalizable cada quincena.
+
+## Ejercicio 3
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 4 años con tasa de interés del 1.5\% mensual capitalizable cada trimestre.
+
+## Ejercicio 4
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 8 años con tasa de interés del 6\% trimestral capitalizable cada mes.
+
+## Ejercicio 5
+
+Calcule la tasa de interés por periodo de capitalización y el numero de periodos de capitalización para un capital invertido a interés compuesto durante 2 años con tasa de interés del 15\% semestral capitalizable cada bimestre.
+
+## Ejercicio 6
+
+Calcule el monto de interés compuesto  6 meses de \$150,000.00 invertidos al 18.36\% anual capitalizable cada mes.
+
+## Ejercicio 7
+
+Alberto solicitó un préstamo de \$6,700.00 para comprar libros de texto y artículos escolares para sus hijos. Si la tasa de interés es del 27\% anual capitalizable cada mes y debe liquidar el préstamo en 10 meses, calcule los intereses generados.
+
+## Ejercicio 8
+
+Calcule la diferencia del valor final de una inversión de \$52,400.00 invertidos al 7.85\% capitalizable diario del 4 de enero del 2022 al 19 de noviembre del mismo año. Esto para una inversión con año natural menos el año comercial.
+
+## Ejercicio 9
+
+En una nota periodística australiana en septiembre de 1997 se leía:
+
+*Descendientes de dos exploradores aborígenes que nunca recibieron la recompensa por capturar al bandido más famoso de Australia, perdieron una demanda de compensación por 60 millones de dólares australianos.
+Los exploradores nunca cobraron la recompensa anunciada por capturar al bandido irlandés Ned Nelly, en 1878 y sus descendientes la exigieron con la penalidad de un interés compuesto anual del 12\%*
+
+¿Cuál fue el valor de la recompensa anunciada en ese tiempo?
+
+## Ejercicio 10
+
+Carlos tiene 2 deudas: una por \$25,730.00 para pagar en 14 meses, y otra de \$39,675.00 a pagar en 18 meses. Carlos desea pagar sus deudas en este momento, ya que acaba de recibir \$50,000.00 del fondo de ahorro de la empresa donde trabaja. Si el valor del dinero es del 1.82\% mensual capitalizable en forma bimestral, ¿tendrá lo suficiente para saldar sus deudas?
+
+## Ejercicio 11
+
+¿Qué oferta es más conveniente para el vendedor de un terreno si el dinero puede invertirse al 10\% anual compuesto cada mes?
+
+a. \$200,000.00 de contado y \$231,989.74 dentro de un año.
+b. \$50,000.00 de contado y el saldo en 3 pagarés iguales de \$142,433.53 cada uno a 4, 8 y 12 meses de plazo.
+
+## Ejercicio 12
+
+Un pagaré, fechado el 27 de marzo del 2019, estipula el pago de \$36,189.00 más intereses del 27\% capitalizable cada quincena para dentro de 10 meses. Si el deudor desea saldar su deuda el 27 de septiembre del 2019, calcule la cantidad a pagar utilizando una tasa de descuento del 29\% mensual.
+
+## Ejercicio 13
+
+Calcule el precio de contado de una impresora multifuncional láser que se compra a crédito, mediante un enganche del 20\% del precio de contado y se firma un pagaré que vence dentro de un trimestre, por \$3,937.11, que incluye intereses al 30\% capitalizable mensual.
+
+## Ejercicio 14
+
+Sergio compra un automóvil, cuyo precio de contado es de \$418,000.00, dando un pago inicial, o enganche, y el saldo se pagará mediante un abono de \$150,000.00 al cabo de un año, y \$251,229.73 dentro de un año y medio, los cuales incluyen intereses a la tasa del 14\% capitalizbale cada mes. Calcule el valor del pago inicial.
+
+## Ejercicio 15
+¿Que tiempo es necesario para que \$3,600.00 se conviertan en \$9,055.14, a una tasa anual del 9.44\% convertible cada semestre. Por favor exprese en años el resultado.
+
+## Ejercicio 16 
+Se estima que en las condiciones económicas actuales, una casa, cuyo precio actual es de \$780,000.00, aumentará su valor cada año en 7\% sobre el valor del año anterior, durante los próximos 8 años. ¿En cuánto tiempo la casa tendrá n valor de \$1,022,421.00?
