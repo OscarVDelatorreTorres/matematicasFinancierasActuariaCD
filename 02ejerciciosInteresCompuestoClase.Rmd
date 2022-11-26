@@ -80,3 +80,32 @@ Sergio compra un automóvil, cuyo precio de contado es de \$418,000.00, dando un
 
 ## Ejercicio 16 
 Se estima que en las condiciones económicas actuales, una casa, cuyo precio actual es de \$780,000.00, aumentará su valor cada año en 7\% sobre el valor del año anterior, durante los próximos 8 años. ¿En cuánto tiempo la casa tendrá n valor de \$1,022,421.00?
+
+## Ejercicio 17
+Carlos compró un curso de inglés en \$3,600.00 y, cinco semanas después, lo rifó entre sus compañeros de trabajo, obteniendo una ganancia de \$1,270.00. Considerando capitalización de intereses en forma semanal, ¿qué tasa de rendimiento obtuvo?
+
+## Ejercicio 18
+Roberto invierte \$218,000.00 en un pagaré a 28 días de plazo y lo renueva, junto con el interés ganado, durante un año, es decir, durante 13 periodos de 28 días. La tasa de interés del pagaré durante el año, pero el monto final fue de \$246,766.44. Calcule la tasa de interés promedio que ganó el pagaré en cada periodo.
+
+## Ejercicio 19
+Calcule el valor futuro de \$72,000.00 al cabo de 6 años 8 meses si los tres primeros años se tiene una tasa de interés del 9\% capitalizable cada mes y el tiempo restante es del 8\% capitalizable cada quincena. ¿Cuál fue el interés ganado?
+
+## Ejercicio 20
+David es un ingeniero financiero que va a ser contratado por una empresa financiera para llevar a cabo análisis de riesgos. La empresa le ofrece un sueldo inicial de \$9,225.00 mensuales y el siguiente plan de aumentos:
+
+- 8\% cuando cumpla 3 meses
+- 12\% cuando cumpla 6 meses
+- 18\% cuando cumpla un año
+
+Calcule el incremento mensual promedio.
+
+## Ejercicio 21
+¿Cuál era el precio de una computadora hace 4 meses si actualmente cuesta \$16,931.42 y tuvo los siguientes incrementos mensuales?
+
+- Mes 1: 3.0\%
+- Mes 2: 5.0\%
+- Mes 3: 5.0\%
+- Mes 4: 6.5\%
+
+## Ejercicio 22
+¿Cuál es la tasa anual promedio de crecimiento de una empresa si en 6 años tuvo un crecimiento total del 800\%?
