@@ -9,4 +9,195 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Ejercicios de anualidades ordinarias
+# Ejercicios de anualidades ordinarias o vencidas
+
+## Ejercicio 1
+Encuentre el valor presente de una anualidad de $380.00 al final de cada mes por 3 años. Esto con una tasa de interés del 12\%.
+
+## Ejercicio 2
+José compra un automóvil, pagando \$1,500.00 de enganche y \$182.50 al mes por 3 años. ¿Cuál es el precio de contado del coche al inicio del crédito con una tasa de interés del 18.00\%?
+
+## Ejercicio 3
+Una persona decide ahorrar \$2,000.00 por año durante 25 años, en una AFORE que paga el 9.00\% de interés promedio anual. ¿Cuánto tendrá al final del periodo?
+
+# Ejercicio 4
+Se estima que una máquina deberá ser remplazada en 10 años por uso. Esto a un costo de $800,000.00. ¡Cuánto debe provisionarse en la cuenta de inversión de la empresa cada mes, si la misma paga una tasa de interés de 8.00\%?
+
+## Ejercicio 5
+Una persona quiere tener ahorrados \$2,000,000.00 en 35 años (adicionales a lo que ahorre tripartita por Ley) que termine su etapa laboral y se jubile, según la LIMSS. Si las AFORES pagan ua tasa promedio anual de 9\%, ¿Diga Usted cuánto debe ahorrar o pedir que se le retenga voluntariamente de manera anticipada o al final de la quincena  para lograr la meta?
+
+## Ejercicio 6
+Diga qué conviene más pagar un crédito de un T.V. a 48 quincenas, con una tasa del 9.5\% de manera anticipada o de manera vencida (ordinaria). Esto si el T.V. se paga quincenalmente \$150.00
+
+## Ejercicio 7
+Tomás se ganó \$9,500,000.00 en el sorteo Melate. Deberá pagar un 7\% de impuesto estatal y el resto piensa depositarlo en un fondo de inversión que le da el 8.15\% anual compuesto cada mes, e ir retirando $50,000.00 mensuales a fin de vivir un tiempo sin trabajar hasta que el dinero se acabe. ¿Cuántos retiros podrá efectuar?
+
+
+## Ejercicio 8
+Ramiro solicitó un préstamo personal a un banco por $130,000.00 ¿Cuántos pagos mensuales de \$5,518.70 se deberán realizar para liquidar el préstamo si la tasa de interés es del 30\% anual capitalizable cada mes?
+
+## Ejercicio 9
+¿Cuántos depósitos quincenales de $1,602.77 cada uno deben realizarse para acumular un total de \$100,000.00 si se ganan intereses del 11\% capitalizable cada quincena?
+
+## Ejercicio 10
+Se desea obtener un monto de \$20,000.00 mediante depósitos de \$1,655.00 cada uno, realizados al final de cada bimestre. Calcule ¿cuántos depósitos se deben hacer si se ganan intereses del 15\% capitalizable cada bimestre?
+
+## Ejercicio 11
+Una persona deposita \$3,500.00 cada mes vencido en una cuenta de ahorro que le paga el 9.62\% anual capitalizable cada mes. ¿cuánto habrá ahorrado al cabo de 55 meses?
+
+## Ejercicio 12
+Una familia comienza a ahorrar para realizar un viaje a Hawái, dentro de 2 años. Con este fin, se depositan \$4,000.00 al final de cada quincena en una cuenta que genera intereses a una tasa del 1.31\% mensual capitalizable cada quincena. Obtenga el interés ganado durante la operación.
+
+## Ejercicio 13
+Se depositan \$6,000.00 en una cuenta de ahorro al final de cada semestre durante 8 años y medio. Si no se realiza ningún retiro, ¿cuánto dinero habrá en la cuenta? la tasa de interés es del 5.5\% semestral capitalizable cada semestre.
+
+## Ejercicio 14
+¿Qué cantidad se acumulará en 15 meses si se depositan \$500.00 al final de cada semana en una cuenta bancaria que paga el 10\% capitalizable cada semana?
+
+## Ejercicio 15
+Se puede comprar una casa en España mediante un pago inicial de 20,000.00 euros y pagos bimestrales de 1,200 euros durante 14 años. Diga cuál es el valor de contadod e la casa, considerando que los pagos incluyen un interés del 8.3\% convertible cada bimestre.
+
+## Ejercicio 16
+Una tienda departamental vende hornos de microondas a crédito, sin enganche y 52 pagos semanales de \$66.83 cada uno. Si la tasa de interés es del 48\% capitalizable cada semana, calcule la cantidad a pagar por el horno.
+
+## Ejercicio 17
+Con los datos del ejercicio anterior, calcule el precio de contado.
+
+## Ejercicio 18
+La prima para pagar por un seguro de incendio y explosión para una casa habitación es de \$1,654.71 al final de cada trimestre. Si el asegurado desea pagar por adelantado la prima de un año, ¿cuánto debe pagar si la tasa de interés es del 5.5\% trimestral capitalizable cada trimestre?
+
+## Ejercicio 19
+Ricardo tiene una licenciatura en física y consiguió una beca para estudiar durante 2 años una maestría en mecánica cuántica en EEUU. Por tal motivo, renta su casa por 2 años en \$6,300.00 por mes vencido. Si una persona desea rentarla pagando por adelantado el alquiler de los 2 años, ¿cuánto tendrá que pagar suponiendo que el valor del dinero es del 13\% anual capitalizable cada mes?
+
+## Ejercicio 20
+Laura está por jubilarse y va a recibir \$18,725.00 cada mes, durante 25 años, provenientes de un fondo privado de retiro. Si la tasa de interés se estima en 12.14\% caitalizable cada mes, ¿qué cantidad hay en este momento en el fondo para retiro?
+
+## Ejercicio 21
+Si el dinero gana un interés del 1\% mensual convertible cada mes, ¿Cuánto deberá ahorrar cada mes una persona que desea tener \$1,000,000.00 en 5 años?
+
+## Ejercicio 22
+Fernando compra un departamento que cuesta \$3,315,000.00 de contado. Da un anticipo del 25\% y el saldo que va a liquidar en 25 años mediante abonos mensuales. Calcule el valor del pago mensual, si la tasa de interés es del 10.80\% capitalizable cada mes.
+
+## Ejercicio 23
+El beneficiario de un seguro de vida tiene la opción de recibir un pago único de \$1,500,000.00 en este momento, o bien, pago cuatrimestrales iguales durante 8 años. Si la tasa de interés es del 11.00\% compuesto cada cutrimestre, determine el valor del pago cuatrimestral.
+
+## Ejercicio 24
+El plan de jubilación de Carlos consiste en un retiro quincenal de un fondo de retiro. El saldo de la cuenta es de \$2,735,000.00 al inicio del periodo de jubilación y la tasa de interés es del 0.875\% mensual capitalizable cada quincena. Al momento de jubilarse, Carlos tiene una esperanza de vida de 18 años. ¿Cuánto puede retirar cada quincena?
+
+## Ejercicio 25
+Una persona deja a su familia una herencia de \$15,800,000.00. El testamento especifica que la familia debe recibir pagos mensuales de \$184,923.18 ¿Cuántos pagos mensuales obtendrá la familia si la tasa de interés es del 10\% anual capitalizable cada mes?
+
+## Ejercicio 26
+Karla puede ahorrar \$300.00 quincenales. Si los deposita en una sociedad financiera popular (SOFIPO) que paga el 7.12\% capitalisable cada quincena, ¿en cuánto tiempo logrará ahorrar \$20,028.00?
+
+## Ejercicio 27
+Una persona desea obtener un monto de \$120,000.00 mediante depósitos bimestrales de \$4,132.38 en una cuenta bancaria que paga una tasa de interés del 9.7\% capitalizable cada bimestre. ¿Cuántos depósitos se requieren si el primero se realiza dentro de un bimestre a partir de hoy?
+
+## Ejercicio 28
+El señor Jimenez solicitó un préstamo personal a Banca Progreso por \$85,000.00. El crédito se pagará en 36 abonos quincenales de \$2,782.79. Calcule la tasa de interés nominal anual que paga el señor Jimenez por el crédito.
+
+```{r}
+PV=85000
+A=2782.79
+N=36
+persAnio=24
+delta=0.00009
+
+tasaAnualidadVAVenc=function(VA,A,t,periodosRec,tol=0.00009){
+ 
+r=0.01/persAnio
+diferencia=Inf
+
+iteraciones=0
+
+izquierda=PV/A
+derecha=(1-((1+r)^(-N)))/r
+diferencia=izquierda-derecha
+
+while(abs(diferencia)>delta){
+iteraciones=iteraciones+1
+cat("\f")
+print(paste0("Iteración ",iteraciones))
+
+if (diferencia<0){
+  
+ r2=r*1.1
+    rIt=(r+r2)/2
+    r=rIt
+    derecha=(1-((1+r)^(-N)))/r
+    diferencia=izquierda-derecha
+    
+} else {
+  
+ r2=r*0.9
+    rIt=(r2+r)/2
+    r=rIt
+    derecha=(1-((1+r)^(-N)))/r
+    diferencia=izquierda-derecha  
+}
+}
+cat("\f")
+print(paste0("tasa de ",r," estimada en ",iteraciones," iteraciones..."))
+return(r)
+
+}
+
+tasaAnualidadVFVenc=function(VA,A,t,periodosRec,tol=0.00009){
+ 
+r=0.01/persAnio
+diferencia=Inf
+delta=0.00009
+iteraciones=0
+
+izquierda=PV/A
+derecha=(((1+r)^N)-1)/r
+diferencia=izquierda-derecha
+
+while(abs(diferencia)>delta){
+iteraciones=iteraciones+1
+cat("\f")
+print(paste0("Iteración ",iteraciones))
+
+if (diferencia<0){
+  
+ r2=r*1.1
+    rIt=(r+r2)/2
+    r=rIt
+    derecha=(((1+r)^N)-1)/r
+    diferencia=izquierda-derecha
+    
+} else {
+  
+ r2=r*0.9
+    rIt=(r2+r)/2
+    r=rIt
+    derecha=(((1+r)^N)-1)/r
+    diferencia=izquierda-derecha  
+}
+}
+cat("\f")
+print(paste0("tasa de ",r," estimada en ",iteraciones," iteraciones..."))
+return(r)
+
+}
+
+rVA=tasaAnualidadVAVenc(VA=PV,A=A,t=N,periodosRec=persAnio,tol=delta)
+#rVF=tasaAnualidadVFVenc(VA=PV,A=A,t=N,periodosRec=persAnio,tol=delta)
+```
+
+
+# Ejercicios de anualidades anticipadas
+
+## Ejercicio 25
+Con un nuevo negocio, Julio obtiene utilidades mensuales superiores a los \$3,000,000.00. Para crear una reserva con el objeto de de ampliar sus actividades decide hacer depósitos a inicios de mes por \$500.00 en un fondo de inversión que paga 1.43\% mensual ¿Cuánto habrá acumulado exactamente antes de realizar el trigésimo abono?
+
+## Ejercicio 26
+Se quiere adquirir un artículo pagando \$500.00 de inmediato, y haciendo 4 abonos al inicio de cada uno de los siguientes bimestres. ¿cuál es el valor de contado del artículo si se consideran intereses a razón de 3.2\% convertible con la misma periodicidad de los pagos?
+
+## Ejercicio 27
+El costo de una póliza grupal de seguro para automóviles es de \$220.00 mensuales que se deben pagar por adelantado. Si se consideran intereses a 13\% anual convertible cada mes, ¿cuál es el valor anual de la póliza, que también debe pagar por adelantado?
+
+## Ejercicio 28
+El 3 de marzo se adquirió una máquina de escribir que tenía un precio de contado de \$2,350,000.00. y se acordó pagarla mediante abonos bimestrales comenzando en el momento de la adquisición, y para terminar el 3 de enero del año siguiente. Considerando intereses a 23.6\% convertible bimestralmente, ¿de cuánto fueron los pagos?
+
+
