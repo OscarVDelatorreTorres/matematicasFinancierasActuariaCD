@@ -1,0 +1,303 @@
+---
+title: "03ejerciciosAnualidades"
+author: "Dr. Oscar De la Torre Torres"
+date: "2022-11-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Ejercicios de anualidades ordinarias
+
+## Ejercicio 1
+Encuentre el valor presente de una anualidad de $380.00 al final de cada mes por 3 años. Esto con una tasa de interés del 12\%.
+
+$$VA=A\left[ \frac{1-(1+r)^-t}{r} \right]$$
+```{r}
+A1=380
+i1=0.12
+r1=i1/12
+t1=36
+
+VA1=A1*((1-((1+r1)^-t1))/r1)
+
+formatC(VA1,digits=2,format="f",big.mark=",")
+```
+## Ejercicio 2
+José compra un automóvil, pagando \$1,500.00 de enganche y \$182.50 al mes por 3 años. ¿Cuál es el precio de contado del coche al inicio del crédito con una tasa de interés del 18.00\%?
+
+```{r}
+Enganche2=1500
+A2=182.5
+i2=0.18
+r2=i2/12
+t2=36
+
+VA2=A2*((1-((1+r2)^-t2))/r2)
+
+valorContado2=Enganche2+VA2
+
+formatC(valorContado2,digits=2,format="f",big.mark=",")
+
+```
+## Ejercicio 3
+
+Una persona decide ahorrar \$2,000.00 por año durante 25 años, en una AFORE que paga el 9.00\% de interés promedio anual. ¿Cuánto tendrá al final del periodo?
+
+$$VF=A\left[ \frac{(1+r)^t-1}{r} \right]$$
+
+
+```{r}
+A3=2000
+i3=0.09
+r3=i3
+t3=25
+
+VF3=A3*((((1+r3)^t3)-1)/r3)
+
+formatC(VF3,digits=2,format="f",big.mark=",")
+
+```
+# Ejercicio 4
+
+Se estima que una máquina deberá ser remplazada en 10 años por uso. Esto a un costo de $800,000.00. ¡Cuánto debe provisionarse en la cuenta de inversión de la empresa cada mes, si la misma paga una tasa de interés de 8.00\%?
+
+```{r}
+VF4=800000
+i4=0.08
+r4=i4/12
+t4=120
+
+A4=VF4/((((1+r4)^t4)-1)/r4)
+
+formatC(A4,digits=2,format="f",big.mark=",")
+```
+
+# Ejercicios de anualidades anticipadas
+
+En esta sección se repetirán los ejercicios anteriores pero ahora suponiengo que las anualidades son anticipadas y no ordinarias.
+
+## Ejercicio 1
+Encuentre el valor presente de una anualidad de $380.00 al final de cada mes por 3 años. Esto con una tasa de interés del 12\%.
+
+$$VA=A\left[ \frac{1-(1+r)^-t}{r} \right]$$
+```{r}
+A1A=380
+i1A=0.12
+r1A=i1A/12
+t1A=36
+
+VA1A=(A1A*((1-((1+r1A)^-t1A))/r1A))*(1+r1A)
+
+print("Anualidad ordinaria:")
+formatC(VA1,digits=2,format="f",big.mark=",")
+print("Anualidad anticipada:")
+formatC(VA1A,digits=2,format="f",big.mark=",")
+
+```
+## Ejercicio 2
+José compra un automóvil, pagando \$1,500.00 de enganche y \$182.50 al mes por 3 años. ¿Cuál es el precio de contado del coche al inicio del crédito con una tasa de interés del 18.00\%?
+
+```{r}
+Enganche2=1500
+A2=182.5
+i2=0.18
+r2=i2/12
+t2=36
+
+VA2A=(A2*((1-((1+r2)^-t2))/r2))*(1+r2)
+
+valorContado2A=Enganche2+VA2A
+
+print("Valor actual con Anualidad ordinaria:")
+formatC(valorContado2,digits=2,format="f",big.mark=",")
+print("Valor actual con Anualidad anticipada:")
+valorContado2A=Enganche2+VA2A
+formatC(valorContado2A,digits=2,format="f",big.mark=",")
+
+```
+## Ejercicio 3
+
+Una persona decide ahorrar \$2,000.00 por año durante 25 años, en una AFORE que paga el 9.00\% de interés promedio anual. ¿Cuánto tendrá al final del periodo?
+
+$$VF=A\left[ \frac{(1+r)^t-1}{r} \right]$$
+
+
+```{r}
+A3=2000
+i3=0.09
+r3=i3
+t3=25
+
+VF3A=(A3*((((1+r3)^t3)-1)/r3))*(1+r3)
+print("Valor futuro con Anualidad ordinaria:")
+
+formatC(VF3,digits=2,format="f",big.mark=",")
+
+print("Valor futuro con Anualidad anticipada:")
+formatC(VF3A,digits=2,format="f",big.mark=",")
+
+```
+# Ejercicio 4
+
+Se estima que una máquina deberá ser remplazada en 10 años por uso. Esto a un costo de $800,000.00. ¡Cuánto debe provisionarse en la cuenta de inversión de la empresa cada mes, si la misma paga una tasa de interés de 8.00\%?
+
+```{r}
+VF4=800000
+i4=0.08
+r4=i4/12
+t4=120
+
+A4=VF4/((((1+r4)^t4)-1)/r4)
+
+formatC(A4,digits=2,format="f",big.mark=",")
+```
+
+# Ejercicios de reflexión:
+
+Usted va a pedir prestado \$300,000.00 para pagar una propiedad al INFONATIV. La tasa que cobran es del 11\% en pagos quincenales descontados de su nómina. Diga Usted, en un préstamo a 15 años ¿Qué le conviene más entre una anualidad anticipada o una ordinaria?
+
+```{r}
+VAR1=300000
+iR1A=0.11
+rR1A=iR1A/24
+tR1A=15*24
+
+# Anualidad ordinaria
+AR1O=VAR1/((1-((1+rR1A)^-tR1A))/rR1A)
+
+
+AR1A=VAR1/(((1-((1+rR1A)^-tR1A))/rR1A)*(1+rR1A))
+
+print("Anualidad ordinaria:")
+formatC(AR1O,digits=2,format="f",big.mark=",")
+print("Anualidad anticipada:")
+formatC(AR1A,digits=2,format="f",big.mark=",")
+```
+
+## Ejercicio 2:
+
+Una persona quiere tener ahorrados \$2,000,000.00 en 35 años (adicionales a lo que ahorre tripartita por Ley) que termine su etapa laboral y se jubile, según la LIMSS. Si las AFORES pagan ua tasa promedio anual de 9\%, ¿Diga Usted cuánto debe ahorrar o pedir que se le retenga voluntariamente de manera anticipada o al final de la quincena  para lograr la meta?
+
+```{r}
+VFR2=2000000
+iR2=0.09
+rR2=iR2/24
+tR2=35*24
+
+# Aportaciones ordinarias (vencidas al final de la quincena):
+
+AR2O=VFR2/((((1+rR2)^tR2)-1)/rR2)
+
+# Aportaciones anticipadas (inicio de quincena):
+
+AR2A=VFR2/(((((1+rR2)^tR2)-1)/rR2)*(1+rR2))
+
+print("Anualidad ordinaria:")
+formatC(AR2O,digits=2,format="f",big.mark=",")
+print("Anualidad anticipada:")
+formatC(AR2A,digits=2,format="f",big.mark=",")
+```
+
+## Ejercicio 3
+
+Diga qué conviene más pagar un crédito de un T.V. a 48 quincenas, con una tasa del 9.5\% de manera anticipada o de manera vencida (ordinaria). Esto si el T.V. se paga quincenalmente \$150.00
+
+```{r}
+AR3=150
+iR3=0.095
+rR3=iR3/24
+tR3=48
+
+VFR3O=(AR3*((((1+rR3)^tR3)-1)/rR3))
+VFR3A=(AR3*((((1+rR3)^tR3)-1)/rR3))*(1+rR3)
+
+print("Valor futuro con Anualidad ordinaria:")
+
+formatC(VFR3O,digits=2,format="f",big.mark=",")
+
+print("Valor futuro con Anualidad anticipada:")
+formatC(VFR3A,digits=2,format="f",big.mark=",")
+
+```
+## Ejercicios del número de periodos para un valor presente o futuro en anualidades
+
+## Ejercicio 4
+Tomás se ganó \$9,500,000.00 en el sorteo Melate. Deberá pagar un 7\% de impuesto estatal y el resto piensa depositarlo en un fondo de inversión que le da el 8.15\% anual compuesto cada mes, e ir retirando $50,000.00 mensuales a fin de vivir un tiempo sin trabajar hasta que el dinero se acabe. ¿Cuántos retiros podrá efectuar?
+
+```{r}
+Ganancia4=9500000
+VA4=Ganancia4*.93
+i4=0.0815
+r4=i4/12
+A4=50000
+
+# Solución:
+n4=(-log(1-((VA4*r4)/A4)))/log(1+r4)
+```
+Como se puede apreciar, aquí se distingue el efecto de acumulación de intereses que, lejos de AMORTIZAR el valor actual, lo incrementa. En pocas palabras, el monto de la pensión mensual es inferior a los intereses que se generan en el primer mes que, en teoría, son el ingreso por intereses más alto del todo el plan financiero. En otros términos, se puede investigar, con el cálculo de los intereses simples de solamente el primer mes, cuánto es la pensión minima si se desea amortizar todo el dinero.
+
+Vamos a calcular los intereses dle primer mes:
+
+```{r}
+I4=VA4*r4
+formatC(I4,digits=2,format="f",big.mark=",")
+```
+Por tanto, se sugiere que se retire más de \$`r formatC(I4,digits=2,format="f",big.mark=",")` al mes si desea amortizar poco a poco el diero.
+
+Veamos si sale el cálculo si se retira una pensión equivalente a los intereses del primer mes:
+
+```{r}
+A4b=I4+1
+# Solución:
+n4a=(-log(1-((VA4*r4)/A4b)))/log(1+r4)
+n4a/12
+```
+## Ejercicio 5
+
+Ramiro solicitó un préstamo personal a un banco por $130,000.00 ¿Cuántos pagos mensuales de \$5,518.70 se deberán realizar para liquidar el préstamo si la tasa de interés es del 30\% anual capitalizable cada mes?
+
+```{r}
+VA5=130000
+i5=0.3
+r5=i5/12
+A5=5518.70
+
+# Solución:
+n5=(-log(1-((VA5*r5)/A5)))/log(1+r5)
+n5
+```
+
+## Ejercicio 6
+
+¿Cuántos depósitos quincenales de $1,602.77 cada uno deben realizarse para acumular un total de \$100,000.00 si se ganan intereses del 11\% capitalizable cada quincena?
+
+$$n=\frac{log\left[\frac{VF\cdot r}{A}+1\right]}{log(1+r)}$$
+
+```{r}
+VF6=100000
+i6=0.11
+r6=i6/24
+A6=1602.77
+
+#Solución:
+n6=(log(((VF6*r6)/A6)+1))/log(1+r6)
+n6
+```
+
+## Ejercicio 7
+
+Se desea obtener un monto de \$20,000.00 mediante depósitos de \$1,655.00 cada uno, realizados al final de cada bimestre. Calcule ¿cuántos depósitos se deben hacer si se ganan intereses del 15\% capitalizable cada bimestre?
+
+```{r}
+VF7=20000
+i7=0.15
+r7=i7/6
+A7=1655
+
+#Solución:
+n7=(log(((VF7*r7)/A7)+1))/log(1+r7)
+round(n7,0)
+```
