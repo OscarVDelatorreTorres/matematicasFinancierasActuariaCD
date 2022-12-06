@@ -55,7 +55,7 @@ Se depositan \$6,000.00 en una cuenta de ahorro al final de cada semestre durant
 ¿Qué cantidad se acumulará en 15 meses si se depositan \$500.00 al final de cada semana en una cuenta bancaria que paga el 10\% capitalizable cada semana?
 
 ## Ejercicio 15
-Se puede comprar una casa en España mediante un pago inicial de 20,000.00 euros y pagos bimestrales de 1,200 euros durante 14 años. Diga cuál es el valor de contadod e la casa, considerando que los pagos incluyen un interés del 8.3\% convertible cada bimestre.
+Se puede comprar una casa en España mediante un pago inicial de 20,000.00 euros y pagos bimestrales de 1,200 euros durante 14 años. Diga cuál es el valor de contado de la casa, considerando que los pagos incluyen un interés del 8.3\% convertible cada bimestre.
 
 ## Ejercicio 16
 Una tienda departamental vende hornos de microondas a crédito, sin enganche y 52 pagos semanales de \$66.83 cada uno. Si la tasa de interés es del 48\% capitalizable cada semana, calcule la cantidad a pagar por el horno.
